@@ -8,7 +8,10 @@ en anuncios pagados, así que no exponen nada que no fuera a ser público de tod
 
 ## ⚠️ Regla
 
-Acá van **solo fotos de propiedades en venta o alquiler**.
+Acá van **imágenes que de todos modos van a salir publicadas en un anuncio**: fotos de
+propiedades en venta o alquiler, y creativos de campaña (carpeta `creativos-campanas/`).
+
+El criterio es ese: si la imagen va a verse en un anuncio pagado, no expone nada nuevo.
 
 **Nunca:** documentos, contratos, datos de clientes, cédulas, precios internos,
 comisiones, ni nada del vault. Si tenés dudas sobre si algo va acá, no va.
