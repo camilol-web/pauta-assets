@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revisión · Taller 8 de octubre</title>
+<style>
+  :root{--bg:#0C3B34;--fg:#F6F1E6;--accent:#E8A33D;--muted:rgba(246,241,230,.72);--line:rgba(246,241,230,.18)}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--fg);
+    font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    padding:28px 16px 64px}
+  .wrap{max-width:860px;margin:0 auto}
+  .eyebrow{color:var(--accent);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700}
+  h1{font-size:27px;line-height:1.15;margin:10px 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:15px;margin-bottom:26px}
+  .grid{display:grid;gap:26px;grid-template-columns:1fr}
+  @media(min-width:720px){.grid{grid-template-columns:1fr 1fr}}
+  .card{border:1px solid var(--line);border-radius:12px;padding:14px;min-width:0}
+  .card h2{font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+  .card p{color:var(--muted);font-size:13px;margin-bottom:12px}
+  video{width:100%;max-width:100%;border-radius:8px;display:block;background:#000}
+  .notes{margin-top:34px;border-top:1px solid var(--line);padding-top:22px}
+  .notes h3{font-size:15px;margin-bottom:10px}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  td:first-child{color:var(--accent);white-space:nowrap;padding-right:16px;font-variant-numeric:tabular-nums}
+  .foot{margin-top:26px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Revisión interna</p>
+  <h1>Taller Primera Llave — corte del 8 de octubre</h1>
+  <p class="sub">Video con el cierre regrabado. 46,97 s.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h2>4:5 — Feed</h2>
+      <p>Donde cae casi toda la entrega.</p>
+      <video controls playsinline preload="metadata"
+        src="revision/preview-taller-08oct-4x5.mp4"></video>
+    </div>
+    <div class="card">
+      <h2>9:16 — Reels y Stories</h2>
+      <p>Formato vertical nativo.</p>
+      <video controls playsinline preload="metadata"
+        src="revision/preview-taller-08oct-9x16.mp4"></video>
+    </div>
+  </div>
+
+  <div class="notes">
+    <h3>Qué cambió</h3>
+    <table>
+      <tr><td>0 → 38,65 s</td><td>Su video original, hasta “…de su vida”.</td></tr>
+      <tr><td>38,65 s</td><td>Entra la tarjeta con la fecha correcta, con zoom lento.</td></tr>
+      <tr><td>39,2 → 45,9 s</td><td>Su cierre grabado, nivelado al volumen del resto.</td></tr>
+      <tr><td>Eliminado</td><td>“Va a ser este jueves 17 de septiembre a las 7 de la noche.”</td></tr>
+    </table>
+    <p class="foot">Estas copias están comprimidas para que carguen rápido. Para pautar se
+    usan los archivos de <strong>creativos-campanas/</strong>, en calidad completa.</p>
+  </div>
+</div>
+</body>
+</html>
