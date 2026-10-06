@@ -39,3 +39,6 @@ horizontal sin destruirla**. Esas hay que tomarlas verticales desde el inicio.
 ## Propiedades
 
 - `clinica-escazu/` — Clínica odontológica equipada, Escazú (Plaza La Paco). Venta $330,000.
+- `alquiler-tres-apartamentos/` — Tres apartamentos en alquiler, oct-2026:
+  Condominio Aviva (Santa Ana, ₡650.000), Bosques del Café (Guachipelín, ₡700.000)
+  y Río Oro (Santa Ana, ₡700.000).
